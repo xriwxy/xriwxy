@@ -1,0 +1,1 @@
+<?php include 'conexao.php';$id=$_POST['id'];$n=$_POST['nome'];$p=$_POST['preco'];$q=$_POST['quantidade'];$d=$_POST['descricao'];$conn->query("UPDATE produtos SET nome='$n',preco='$p',quantidade='$q',descricao='$d' WHERE id=$id");header('Location: produtos_listar.php');?>

@@ -1,0 +1,1 @@
+<?php include 'conexao.php';$n=$_POST['nome'];$p=$_POST['preco'];$q=$_POST['quantidade'];$d=$_POST['descricao'];$conn->query("INSERT INTO produtos(nome,preco,quantidade,descricao)VALUES('$n','$p','$q','$d')");header('Location: produtos_listar.php'); ?>

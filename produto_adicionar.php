@@ -1,0 +1,1 @@
+<form method='post' action='produto_salvar.php'><input name='nome'><input name='preco'><input name='quantidade'><textarea name='descricao'></textarea><button>Salvar</button></form>

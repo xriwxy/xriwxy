@@ -1,0 +1,1 @@
+<?php session_start();if(!isset($_SESSION['id'])){header('Location:login.php');exit;} ?><h1>Painel</h1><a href='produtos_listar.php'>Produtos</a> | <a href='logout.php'>Sair</a>
